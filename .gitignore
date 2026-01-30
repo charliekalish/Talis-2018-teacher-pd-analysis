@@ -1,0 +1,25 @@
+# Personal planning documents (not for public repo)
+WEEKLY_LOGS.md
+CONTENT_CALENDAR.md
+
+# Data files (too large and potentially sensitive)
+data/raw/
+*.sav
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
