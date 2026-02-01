@@ -89,7 +89,7 @@ Raw data not included due to size. Download from [OECD TALIS](https://www.oecd.o
 This analysis was completed as part of my transition into data analytics, demonstrating statistical analysis, data visualization, and translating research into actionable recommendations.
 
 **Author:** Charlie Kalish  
-**Connect:** [LinkedIn] | [Email]  
+**Connect:** charliekalish@gmail.com  
 
 ---
 
