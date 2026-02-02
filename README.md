@@ -1,102 +1,97 @@
 # Teacher Professional Development Analysis
-**Career Stage Matters More Than Subject Area**
+**AI-Assisted Data Analysis for Career Transition & Learning**
+
+## Project Purpose
+
+This project serves two purposes:
+
+(1) Showcase ability to analyze survey data and generate actionable insights using AI-powered tools
+
+(2) Create for myself a learning foundation for developing an individualized, AI-scaffolded Python curriculum
+
+## Background
+
+After 10+ years collecting and analyzing data using traditional tools (spreadsheets, pivot tables, formula-driven dashboards), I took a career break during which I made it one my goals to learn Python. Progress was incremental but slow—-until I discovered AI assistants.
+
+I initially started this project to showcase Python skills learned independently. However, I quickly realized AI assistants could dramatically accelerate both coding and learning. This project now serves as a work sample I can use to structure exercises around specific Python skills.
+
+**Learning Roadmap:**
+
+This TALIS 2018 analysis serves as the foundation for a three-phase learning journey:
+
+1. **Deconstruct the methodology** - Work with AI to break down the analysis workflow into discrete learning modules covering data manipulation, transformation, and statistical testing
+
+2. **Build proficiency** - Complete AI-generated lessons, exercises and self-assessments for each module
+
+3. **Demonstrate mastery** - Apply learned skills to independently analyze TALIS 2024 data, including longitudinal comparisons with 2018 baseline
+
+**Goals:** 
+Create a sample of work which:
+- Demonstrates a proficiency in Python
+- Showcases my ability to combine domain expertise in education with new AI tools
+- Applies these skills to examining real-world problems
 
 ---
 
-## Overview
+## TALIS 2018 Analysis: Teacher Professional Development Gaps
 
-This project analyzes professional development barriers and needs among U.S. middle school teachers using TALIS 2018 data. The analysis reveals that veteran and early-career science teachers face fundamentally different challenges—requiring differentiated programming approaches.
+This analysis examines U.S. middle school teacher PD with a specific focus on science teachers:
 
-**Key Insight:** A 28% gap exists for both groups, but the *nature* of the gap differs completely. Veterans need technology training but lack incentives. Early-career teachers need classroom skills but lack time.
+1. **Overall landscape** - What are the most common PD needs and barriers among all teachers?
+2. **Science teacher comparisons** - Do science teachers face different needs and barriers than other subjects? How do these differ by career stage (early-career, mid-career, veteran)?
+3. **Critical gaps for science teachers** - Where do high needs meet high barriers for science teachers specifically?
+
+**Sample:** 1,799 middle school teachers (grades 7-9) with complete data
+
+**Key Finding:** Career stage drives different critical gaps for science teachers. Veterans need technology training but lack incentives (28% gap). Early-career teachers need classroom fundamentals but lack time (28% gap).
 
 ---
 
 ## Project Structure
 ```
-├── notebooks/                   # Full analysis (3 Jupyter notebooks)
-│   ├── 01_barriers_analysis.ipynb
-│   ├── 02_needs_analysis.ipynb
-│   └── 03_integration_analysis.ipynb
-├── outputs/figures/             # Visualizations
-├── executive_summary.md         # One-page summary
-├── requirements.txt             # Python dependencies
-└── data/README.md               # Data source documentation
+├── notebooks/                          # 3 Jupyter notebooks
+│   ├── 01_barriers_analysis.ipynb      # What prevents PD access
+│   ├── 02_needs_analysis.ipynb         # What PD teachers need
+│   └── 03_integration_analysis.ipynb   # Critical gaps analysis
+├── outputs/figures/                    # 10 visualizations
+├── executive_summary.md                # One-page summary
+└── requirements.txt                    # Python dependencies
 ```
 
 ---
 
-## Key Findings
+## Visualizations
 
-### Veteran Science Teachers (15+ years)
-- **Need:** Technology integration (60%)
-- **Barrier:** No incentives (28%)
-- **Recommendation:** Provide stipends, flexible formats, virtual options
+![Critical Gaps Heatmap](outputs/figures/08_critical_gaps_heatmap.png)
+*Need-barrier combinations affecting most teachers*
 
-### Early-Career Science Teachers (0-5 years)
-- **Need:** Classroom management, special needs strategies (53%)
-- **Barrier:** Schedule conflicts (49%)
-- **Recommendation:** Job-embedded PD, protected time, coaching/mentoring
-
-### Science vs. Other Subjects
-Science teachers face *fewer* structural barriers than other subjects (-8.4pp for employer support, p<0.001), suggesting schools prioritize STEM teacher development.
+![Career Stage Comparison](outputs/figures/10_science_teachers_gap_comparison.png)
+*Different gaps for veterans (red) vs. early-career (blue)*
 
 ---
 
-## Sample Visualizations
-
-### PD Needs by Career Stage
-![Needs Comparison](outputs/figures/07_needs_science_by_experience.png)
-
-*Sorted by early-career needs (low to high). The inverse pattern shows veterans and early-career teachers have opposite priorities.*
-
-### Critical Gaps Analysis
-![Critical Gaps](outputs/figures/10_science_teachers_gap_comparison.png)
-
-*Quadrant analysis showing which need-barrier combinations affect each experience level most.*
-
----
-
-## Methodology
-
-**Data:** TALIS 2018 U.S. middle school teacher sample (n=1,806)  
-**Analysis:** Descriptive statistics, chi-square tests (α=0.05), needs-barriers integration matrix  
-**Tools:** Python (pandas, numpy, scipy), Plotly  
-**Focus:** Science teachers by career stage (0-5 years vs. 15+ years)
-
----
-
-## Technical Details
-
-### Installation
+## Technical Setup
 ```bash
+# Install
 pip install -r requirements.txt
+
+# Dependencies
+pandas, numpy, plotly, scipy, pyreadstat
 ```
 
-### Dependencies
-- pandas
-- numpy
-- plotly
-- scipy
-- pyreadstat (for SPSS files)
+**Data:** Download [TALIS 2018](https://www.oecd.org/education/talis/) and place in `data/raw/`
 
-### Data Access
-Raw data not included due to size. Download from [OECD TALIS](https://www.oecd.org/education/talis/).
+**Methodology:** Descriptive statistics, chi-square tests (α=0.05), needs-barriers matrix
 
 ---
 
-## About This Project
+## About
 
-This analysis was completed as part of my transition into data analytics, demonstrating statistical analysis, data visualization, and translating research into actionable recommendations.
+**Charlie Kalish** | charliekalish@gmail.com | [LinkedIn](https://www.linkedin.com/in/charlie-kalish/)
 
-**Author:** Charlie Kalish  
-**Connect:** charliekalish@gmail.com  
-
----
-
-## License
-
-MIT License | Data: OECD TALIS 2018
+**Career Transition:** Education, Regulatory compliance → Data analytics  
+**Target Roles:** Program Manager, Data Analyst, Operations analyst 
 
 ---
 
-*This project was completed with AI assistance (Claude) to establish methodology, which I am working to replicate independently as part of my learning process.*
+**License:** MIT | **Data:** OECD TALIS 2018

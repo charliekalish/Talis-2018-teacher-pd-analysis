@@ -5,7 +5,9 @@
 Understanding teachers' Professional Development (PD) needs and the barriers that prevent them from accessing PD is critical for designing effective PD programs. Using [TALIS survey data](https://www.oecd.org/education/talis/) (2018), this analysis identifies key PD barriers and needs of U.S. Grades 6-9 science teachers to provide science education organizations with a national baseline with which to:
 
 - Assess whether current programs address critical gaps (high need + high barrier)
-- Drive allocations of resources to highest-impact interventions
+- Drive strategic planning of PD offerings to maximize impact
+
+**Sample:** 1,799 middle school teachers (grades 7-9) with complete data on barriers and needs
 
 ---
 
@@ -13,7 +15,7 @@ Understanding teachers' Professional Development (PD) needs and the barriers tha
 
 ### Overall Summary
 
-Of 1,422 science teachers who responded to survey, the largest percentage of respondents reported integration of new technologies as PD area of highest need with lack of incentives, schedule conflicts and family responsibilities as chief barriers.
+Of 1,799 science teachers in the sample, the largest percentage of respondents reported integration of new technologies as PD area of highest need with lack of incentives, schedule conflicts and family responsibilities as chief barriers.
 
 ![Critical Gaps Heatmap](outputs/figures/08_critical_gaps_heatmap.png)
 
@@ -53,5 +55,5 @@ PD programs can maximize impact by tailoring offerings to the distinct needs and
 
 ---
 
-**Author:** Charlie Kalish | charliekalish@gmail.com | [LinkedIn](your-linkedin-url)  
-**GitHub:** [github.com/charliekalish/Talis-2018-teacher-pd-analysis](https://github.com/charliekalish/Talis-2018-teacher-pd-analysis)
+**Author:** Charlie Kalish | charliekalish@gmail.com | [LinkedIn](https://www.linkedin.com/in/charlie-kalish/)  
+**GitHub:** [View Project](https://github.com/charliekalish/Talis-2018-teacher-pd-analysis)
