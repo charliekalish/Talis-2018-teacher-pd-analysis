@@ -1,36 +1,11 @@
 # Teacher Professional Development Analysis
-**AI-Assisted Data Analysis for Career Transition & Learning**
 
 ## Project Purpose
-
-This project serves two purposes:
-
-(1) Showcase ability to analyze survey data and generate actionable insights using AI-powered tools
-
-(2) Create for myself a learning foundation for developing an individualized, AI-scaffolded Python curriculum
-
-## Background
-
-After 10+ years collecting and analyzing data using traditional tools (spreadsheets, pivot tables, formula-driven dashboards), I took a career break during which I made it one my goals to learn Python. Progress was incremental but slow—-until I discovered AI assistants.
-
-I initially started this project to showcase Python skills learned independently. However, I quickly realized AI assistants could dramatically accelerate both coding and learning. This project now serves as a work sample I can use to structure exercises around specific Python skills.
-
-**Learning Roadmap:**
-
-This TALIS 2018 analysis serves as the foundation for a three-phase learning journey:
-
-1. **Deconstruct the methodology** - Work with AI to break down the analysis workflow into discrete learning modules covering data manipulation, transformation, and statistical testing
-
-2. **Build proficiency** - Complete AI-generated lessons, exercises and self-assessments for each module
-
-3. **Demonstrate mastery** - Apply learned skills to independently analyze TALIS 2024 data, including longitudinal comparisons with 2018 baseline
-
-**Goals:** 
-Create a sample of work which:
-- Demonstrates a proficiency in Python
-- Showcases my ability to combine domain expertise in education with new AI tools
-- Applies these skills to examining real-world problems
-
+The purpose of this project is to demonstrate my ability to analyze survey data sets and generate actionable insights. I chose professional development data in the educational field because:
+(1) this is an area where public data is easily accessible
+(2) it is an area with which I am myself experienced, having worked in education and professional development for 10+ years
+(3) I have led numerous professional development trainings, albeit not in K-12 education, but in the food industry as a food safety trainer and expert on regulatory compliance
+(4) This is the kind of data set I have often encountered over the course of my professional career.
 ---
 
 ## TALIS 2018 Analysis: Teacher Professional Development Gaps
