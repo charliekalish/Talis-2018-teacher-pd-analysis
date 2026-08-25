@@ -6,6 +6,7 @@ The purpose of this project is to demonstrate my ability to analyze survey data 
 (2) it is an area with which I am myself experienced, having worked in education and professional development for 10+ years
 (3) I have led numerous professional development trainings, albeit not in K-12 education, but in the food industry as a food safety trainer and expert on regulatory compliance
 (4) This is the kind of data set I have often encountered over the course of my professional career.
+
 ---
 
 ## TALIS 2018 Analysis: Teacher Professional Development Gaps
